@@ -1,0 +1,22 @@
+[project]
+name = "homework-1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "avo-svg", email = "lena2go@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.6",
+    "psycopg[binary,pool]>=3.3.6",
+    "pyarrow>=25.0.1",
+    "sqlalchemy>=2.0.54",
+]
+
+[project.scripts]
+homework-1 = "homework_1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.12,<0.13.0"]
+build-backend = "uv_build"
