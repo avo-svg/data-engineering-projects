@@ -82,4 +82,4 @@ ORDER BY
 LIMIT 1;
 ```
 
-Answer: Yorkville West ✅ 
+Answer: Yorkville West ✅
